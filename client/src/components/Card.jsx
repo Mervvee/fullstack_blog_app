@@ -15,7 +15,7 @@ const Card = ({ post, index }) => {
       <Link
         to={`/${post?.slug}/${post._id}`}
         className='w-full h-auto md:h-64 md:w-2/4 '
-      >
+      > 
         <img
           src={post?.img}
           alt={post?.title}
