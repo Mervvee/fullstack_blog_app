@@ -1,0 +1,38 @@
+{
+  "name": "fullstack_blog_app",
+  "version": "1.0.0",
+  "description": "nodejs and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "deneme command",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mervvee/fullstackblog_app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "mervvee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mervvee/fullstackblog_app/issues"
+  },
+  "homepage": "https://github.com/Mervvee/fullstackblog_app#readme",
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.23.1",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.6"
+  }
+}
